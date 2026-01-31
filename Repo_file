@@ -1,0 +1,22 @@
+healthcare-devops/
+├── microservices/
+│   ├── patient-service/
+│   │   ├── Dockerfile
+│   │   └── app.py
+│   └── appointment-service/
+│       ├── Dockerfile
+│       └── app.py
+│
+├── k8s/
+│   ├── patient-deployment.yaml
+│   ├── appointment-deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
+│
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+│
+├── cloudbuild.yaml
+└── README.md

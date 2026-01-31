@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: patient-service
+spec:
+  type: ClusterIP
+  selector:
+    app: patient
+  ports:
+    - port: 80
+      targetPort: 8080
